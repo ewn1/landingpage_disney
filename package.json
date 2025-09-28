@@ -1,0 +1,28 @@
+{
+  "name": "landingpage_disney",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewn1/landingpage_disney.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ewn1/landingpage_disney/issues"
+  },
+  "homepage": "https://github.com/ewn1/landingpage_disney#readme",
+  "dependencies": {
+    "gulp": "^5.0.1",
+    "gulp-sass": "^6.0.1"
+  },
+  "devDependencies": {
+    "sass": "^1.93.2"
+  }
+}
