@@ -12,7 +12,9 @@
         list-style: none;
 
         @media (max-width: 768px) {
-            display: block;
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
         }
 
         .button {
@@ -38,6 +40,12 @@
             strong {
                 display: block;
                 margin-top: 24px;
+            }
+
+            @media (max-width: 768px) {
+                img {
+                    max-width: 100%;
+                }
             }
         }
     }
